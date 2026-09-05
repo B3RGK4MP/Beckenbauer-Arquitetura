@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beckenbauer Arquitetura — Beckenbauer Targino</title>
+<meta name="description" content="Beckenbauer Targino, arquiteto e urbanista com mais de 19 anos de experiência. Projetos residenciais, comerciais e de interiores no Ceará, Pernambuco e além.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="container">
+    <a href="#top" class="brand">
+      <img src="images/logo_icon_white.png" alt="">
+      <span class="brand-word">Beckenbauer <b>Targino</b></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#sobre">Sobre</a>
+      <a href="#atuacao">Atuação</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#interiores">Interiores</a>
+      <a href="#contato" class="btn-contact">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-media">
+    <video autoplay muted loop playsinline preload="auto" poster="images/hero-poster.jpg" id="heroVideo">
+      <source src="video/hero-video.webm" type="video/webm">
+      <source src="video/hero-video.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-content container">
+    <p class="hero-kicker">Beckenbauer Arquitetura — arquitetura residencial, comercial &amp; interiores</p>
+    <h1 class="hero-title">Um projeto<br>por vez<span aria-hidden="true">.</span></h1>
+    <div class="hero-foot">
+      <p class="hero-quote">“Desenhar espaços que inspiram, acolhem e celebram a vida em todas as suas formas.”</p>
+      <div class="scroll-cue"><span class="line"></span> Role para conhecer</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOBRE ============ -->
+<section class="section" id="sobre">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-media">
+        <div class="frame" aria-hidden="true"></div>
+        <figure>
+          <img src="images/bio_photo.jpg" alt="Beckenbauer Targino observando a fachada de uma de suas obras">
+        </figure>
+      </div>
+      <div class="about-copy">
+        <h2 class="h-section about-name">Beckenbauer Targino</h2>
+        <p>Paraibano, arquiteto e urbanista à frente da Beckenbauer Arquitetura há mais de 19 anos, com projetos assinados em seis estados brasileiros e no exterior.</p>
+        <p>Cada espaço é pensado a partir da personalidade de quem vai vivê-lo — os sonhos e os momentos inesquecíveis de seus habitantes guiam o desenho, do primeiro traço ao último acabamento. Um projeto por vez.</p>
+        <div class="stat-row">
+          <div class="stat"><b>19+</b><span>anos de atuação</span></div>
+          <div class="stat"><b>900+</b><span>projetos assinados</span></div>
+          <div class="stat"><b>6</b><span>estados + exterior</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ATUAÇÃO ============ -->
+<section class="section section-dim" id="atuacao">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="h-section">Áreas de<br>atuação</h2>
+      <p class="lede">Da concepção ao último detalhe, a atuação do escritório está dividida em três frentes.</p>
+    </div>
+    <div class="services">
+      <div class="service">
+        <h3>Residencial</h3>
+        <p>Projetamos casas e moradias que refletem o estilo de vida de cada cliente, aliando conforto, sustentabilidade e design personalizado.</p>
+      </div>
+      <div class="service">
+        <h3>Comercial</h3>
+        <p>De lojas e escritórios a restaurantes e espaços corporativos, buscamos integrar inovação, sustentabilidade e conforto em locais que inspiram e atraem clientes.</p>
+      </div>
+      <div class="service">
+        <h3>Interiores</h3>
+        <p>Da escolha de materiais e texturas ao mobiliário e à iluminação — cuidamos de cada detalhe para que o espaço seja funcional, marcante e adaptado a quem o habita.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJETOS ============ -->
+<section class="section" id="projetos">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="h-section">Projetos</h2>
+      <p class="lede">Uma seleção de residências e espaços comerciais assinados pelo escritório, a maior parte em condomínios do Ceará e de Pernambuco.</p>
+    </div>
+  </div>
+
+  <div class="container" style="padding-inline:0; max-width:100%;">
+    <div style="max-width:var(--container); margin-inline:auto; padding-inline:var(--gutter);">
+      <div id="featuredProject"></div>
+      <div class="grid-projects" id="projectsGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTERIORES ============ -->
+<section class="section section-dim" id="interiores">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="h-section">Interiores</h2>
+      <p class="lede">Materiais, texturas, mobiliário e luz — o cuidado que transforma um cômodo em um lugar para viver.</p>
+    </div>
+  </div>
+  <div class="container" style="padding-inline:0; max-width:100%;">
+    <div style="max-width:var(--container); margin-inline:auto; padding-inline:var(--gutter);">
+      <div class="grid-interiors" id="interiorsGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section class="section section-ink" id="contato">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-copy">
+        <h2 class="h-section">Vamos conversar<br>sobre o seu projeto</h2>
+        <p class="lede" style="color:var(--stone);">Conte um pouco sobre a ideia — residencial, comercial ou um projeto de interiores — e retornamos o contato.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="label">WhatsApp</span>
+            <a class="value" href="https://wa.me/5588998660534" target="_blank" rel="noopener">(88) 99866-0534</a>
+          </li>
+          <li>
+            <span class="label">E-mail</span>
+            <a class="value" href="mailto:becktargino@gmail.com">becktargino@gmail.com</a>
+          </li>
+          <li>
+            <span class="label">Instagram</span>
+            <a class="value" href="https://www.instagram.com/becktargino.arquiteto/" target="_blank" rel="noopener">@becktargino.arquiteto</a>
+          </li>
+          <li>
+            <span class="label">Endereço</span>
+            <span class="value" style="font-size:1rem;">Rua Arnóbio Bacelar Caneca, 1326 — Lagoa Seca, Juazeiro do Norte, CE</span>
+          </li>
+        </ul>
+      </div>
+      <div class="contact-media">
+        <div class="frame" aria-hidden="true"></div>
+        <figure>
+          <img src="images/contact_portrait.jpg" alt="Beckenbauer Targino em uma exposição de arte e arquitetura">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <span>Beckenbauer Arquitetura © <span id="year"></span></span>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/becktargino.arquiteto/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/5588998660534" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mailto:becktargino@gmail.com">E-mail</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" id="lbClose" aria-label="Fechar">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lbPrev" aria-label="Anterior">&#8249;</button>
+    <div class="lightbox-frame">
+      <img src="" alt="" id="lbImage">
+    </div>
+    <button class="lightbox-nav lightbox-next" id="lbNext" aria-label="Próxima">&#8250;</button>
+    <div class="lightbox-caption">
+      <h4 id="lbTitle"></h4>
+      <p id="lbSub"></p>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
